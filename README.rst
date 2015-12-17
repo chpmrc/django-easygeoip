@@ -21,7 +21,12 @@ production server (which probably means registering two accounts). There are man
 How do I use it?
 ----------------
 
-First add it to the INSTALLED_APPS
+First off install the package (preferably in your virtual environment):
+::
+
+    pip install django-easygeoip
+
+Add it to the INSTALLED_APPS
 ::
 
     INSTALLED_APPS = (
@@ -30,7 +35,7 @@ First add it to the INSTALLED_APPS
         ...
     )
 
-Then include its URLs (you can change the prefix `api` to whatever you want)
+Include its URLs (you can change the prefix `api` to whatever you want)
 ::
 
     url(r'^api/', include('easygeoip.urls_api', namespace="easygeoip")),
@@ -142,3 +147,8 @@ Testing
 -------
 
 To run the test suite simply run `./manage.py test easygeoip` from your project directory.
+
+Pypi
+----
+
+The package is available here: https://pypi.python.org/pypi/django-easygeoip
