@@ -2,7 +2,7 @@
 EasyGeoIP
 =========
 
-**Note:** yes, I do know this app has PEP8 violations, is tightly coupled to DRF, yadda yadda yadda...It's useful for some people (me, first off), it's not for others. Feel free to open PRs but this is mostly a repository for myself (also a nice way to see how publishing a package to pypi works).
+**Note:** yes, I do know this app has PEP8 violations, is tightly coupled to DRF, etc. I wrote this when I still knew very little about Django and DRF and it was more a way to see how publishing a PyPi package works. Plus, there are people who use it and I don't feel like deleting the repository.
 
 EasyGeoIP is a Django app that enables IP address-based geo-location capabilities to your Django project based on a locally
 stored database released by `MaxMind <http://dev.maxmind.com/geoip>`_.
